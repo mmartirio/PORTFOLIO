@@ -85,8 +85,8 @@ ul li a:hover {
 }
 
 .name-profile img:hover{
-    background-image: url(./background-img.jpg);
-    background-size: 30vmin;
+    background-image: url(../background-img.jpg);
+    background-size: 35vmin;
     transition: .2s;
 }
 
