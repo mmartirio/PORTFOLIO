@@ -18,15 +18,14 @@
         
         position: absolute;
         top: 10%;
-        left: 12%;
+        left: 11%;
     }
 
     .name-profile img{
     display: flex;
-    align-items: center;
-    justify-content: center;
     width: 35vmin;
     height: 35vmin;
+    margin-left: 10%;
     background-color: #1a06f7;
     border-radius: 130%;
 }
@@ -36,8 +35,9 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 45%;
+    top: 40%;
     left: 5%;
+    margin-top: 3em;
 }
 
 .about h1 {
@@ -57,6 +57,7 @@
     justify-content: center;
     position: absolute;
     top: 100%;
+    margin-top: 5em;
 }
 
 .project-container h2{
@@ -106,7 +107,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 350%;
+    top: 360%;
+    margin-top: 3em;
     padding: 5px 0;
     background-color: #1e1e1f;
 }
