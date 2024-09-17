@@ -81,7 +81,6 @@ ul li a:hover {
     border-radius: 130%;
     left: 15%;
     margin-bottom: 30px;
-
 }
 
 .name-profile img:hover{
@@ -125,11 +124,6 @@ ul li a:hover {
     text-align: justify;
 }
 
-.project-container h2{
-    font-size: 60px;
-    margin-bottom: 50px;
-}
-
 .project-container {
     display: flex;
     flex-direction: column;
@@ -138,6 +132,11 @@ ul li a:hover {
     position: absolute;
     top: 100%;
     left: 2%;
+}
+
+.project-container h2{
+    font-size: 60px;
+    margin-bottom: 50px;
 }
 
 .project-line {

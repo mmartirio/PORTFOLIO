@@ -1,0 +1,140 @@
+@media screen and (max-width: 720px) {
+    .head {
+        width:100vw;
+        height: 10vh;
+    
+    }
+    ul {
+        display: none;
+    }
+    .line {
+        display: none;
+    }
+
+    .name-profile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        position: absolute;
+        top: 10%;
+        left: 12%;
+    }
+
+    .name-profile img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35vmin;
+    height: 35vmin;
+    background-color: #1a06f7;
+    border-radius: 130%;
+}
+
+.about {
+    width: 90vmin;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+}
+
+.about h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.about p {
+    text-align: justify;
+    font-size: 10pt;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 100%;
+}
+
+.project-container h2{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.project-line {
+    display: flex;
+    width: 80%;
+    height: 2px;
+    background-color: #ffff;
+    position: absolute;
+    top: 50px;
+    border-radius: 2px;
+    
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card {
+    width: 350px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin-bottom: 3px;
+}
+
+.card img {
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px 5px rgba(0, 0, 0, .3);
+}
+
+
+footer {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 350%;
+    padding: 5px 0;
+    background-color: #1e1e1f;
+}
+
+footer h5 {
+    font-size: 15px;
+    margin-left: 1em;
+
+}
+
+footer p {
+    font-size: 12px;
+    margin-left: 1em;
+}
+
+.social {
+    margin-left: 50px;
+    padding: 5px;
+    gap: wrap;
+}
+
+.social img {
+    width: 30px;
+    filter: invert();
+    margin: 0 10px;
+}
+
+.social img:hover {
+    filter: invert(0.3);
+}
+}
