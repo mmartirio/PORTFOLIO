@@ -40,6 +40,14 @@ ul {
     margin-right: 80px;
 }
 
+.head input {
+    display: none;
+}
+
+.menu-mobile {
+    display: none;
+}
+
 ul li a {
     display: flex;
     text-decoration: none;

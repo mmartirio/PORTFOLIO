@@ -7,6 +7,7 @@
     ul {
         display: none;
     }
+    
     .line {
         display: none;
     }
@@ -139,4 +140,74 @@ footer p {
 .social img:hover {
     filter: invert(0.3);
 }
+
+nav .menu-faketrigger {
+    display: flex;
+    position: absolute;
+    z-index: 1000;
+    width: 35px;
+    height: 35px;
+    top: 2%;
+    right: 12%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+nav .menu-faketrigger:checked~ul {
+    display: flex;
+    position: absolute;
+    width: 100px;
+    flex-direction: column;
+    padding: 10px 0;
+    top: 25px;
+    left: 67%;
+    background-color: #323233;
+}
+
+nav .menu-faketrigger:checked~ul li {
+    position: relative;
+    right: 30%;
+    transition: all ease-in .2s;
+}
+
+nav .menu-faketrigger:checked~ul li a:hover {
+    color: #1a06f7;
+    transition: .2s;
+}
+
+.menu-mobile {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 999;
+    width: 35px;
+    height: 35px;
+    top: 2%;
+    right: 12%;
+}
+
+.menu-mobile span {
+    display: block;
+    width: 35px;
+    height: 10px;
+    margin-bottom: 10px;
+    background-color: #ffff;
+    border-radius: 3px;
+    transition: all ease .2s;
+}
+
+nav .menu-faketrigger:checked~.menu-mobile span:nth-child(1) {
+    transform-origin: 0% 0%;
+    transform: rotate(45deg);
+}
+
+nav .menu-faketrigger:checked~.menu-mobile span:nth-child(2) {
+    opacity: 0;
+}
+
+nav .menu-faketrigger:checked~.menu-mobile span:nth-child(3) {
+    transform-origin: 0% 100%;
+    transform: rotate(-45deg);
+}
+
 }
