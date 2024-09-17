@@ -185,6 +185,11 @@ ul li a:hover {
     box-shadow: 2px 2px 15px 5px rgba(0, 0, 0, .3);
 }
 
+.card img:hover {
+    width: 330px;
+    height: 210px;
+}
+
 .card h5 {
     font-size: 18px; 
     font-weight: 600;   
@@ -196,7 +201,7 @@ ul li a:hover {
     margin: 10px 10px;
 }
 
-.card a {
+.card .link {
     padding: 8px 25px;
     border-radius: 15px;
     text-decoration: none;
@@ -205,7 +210,7 @@ ul li a:hover {
     margin-bottom: 15px;
 }
 
-.card a:hover {
+.card .link:hover {
     background-color: #1304b9;
     padding: 9px 26px;
 }
